@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
+.main   {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
 
 .container {
-    min-width: 100vh;
-    min-height: 100vh;
+    min-width: 50vw;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     background-color: blue;    
-
 }
 
 
@@ -59,7 +66,6 @@
 }
 
 .op-box{
-    /* min-width: 80%; */
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
@@ -67,8 +73,7 @@
 }
 
 .numpad{
-    /* min-width: 20%; */
-    /* min-height: 80%; */
+
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
@@ -76,12 +81,11 @@
 }
 
 .numpad-zero{
-    /* min-width: 20%; */
-    /* min-height: 80%; */
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
-    flex-grow: 2;
+    min-width: 50%;
+    /* flex-grow: 2; */
 }
 
 span {
@@ -90,4 +94,7 @@ span {
     border-color: black;
     border: 5px;
     color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    min-width: 60px;
 }
