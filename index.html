@@ -5,49 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <!-- <script src="app.js"></script> -->
     <title>Calculator Version 1</title>
 </head>
 <body>
     <div class="main">
         <div class="container" id="card card-holder">
             <div class="row-1">
-                <span class="op-box">REPRESENTS OUTPUT BOX</span>
+                <span class="op-box previousDisplayNum"></span>
+                <span class="op-box currentDisplayNum"></span>
             </div>
             <div class="row-2">
-                <input type="button" value="c" class="numpad">
+                <input type="button" value="c" class="clear">
                 <input type="button" value="+/-" class="numpad">
                 <input type="button" value="%" class="numpad">
-                <input type="button" value="/" class="numpad">
+                <input type="button" value="/" class="operator">
                 
             </div>
             <div class="row-3">
                 <input type="button" value="7" class="numpad">
                 <input type="button" value="8" class="numpad">
                 <input type="button" value="9" class="numpad">
-                <input type="button" value="x" class="numpad">
+                <input type="button" value="x" class="operator">
             </div>
             <div class="row-4">
                 <input type="button" value="4" class="numpad">
                 <input type="button" value="5" class="numpad">
                 <input type="button" value="6" class="numpad">
-                <input type="button" value="-" class="numpad">
+                <input type="button" value="-" class="operator">
             </div>
             <div class="row-5">
                 <input type="button" value="1" class="numpad">
                 <input type="button" value="2" class="numpad">
                 <input type="button" value="3" class="numpad">
-                <input type="button" value="+" class="numpad">
+                <input type="button" value="+" class="operator">
             </div>
             <div class="row-6">
-                <input type="button" value="0" class="numpad-zero">
-                <input type="button" value="." class="numpad">
-                <input type="button" value="=" class="numpad">
+                <input type="button" value="0" class="numpad numpad-zero">
+                <input type="button" value="." class="decimal">
+                <input type="button" value="=" class="equals">
             </div>
 
         </div>
     </div>
-
-    <link rel="app/js" href="app.js">
+    <script src="app.js"></script>
 </body>
 </html>
